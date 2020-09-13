@@ -1,0 +1,67 @@
+html {
+	height: 970px;
+}
+
+body {
+	font-family: Arial, Times New Roman, Courier New, sans-serif;
+	size: small;
+	height: 970px;
+}
+
+.container {
+
+      margin: auto;
+      padding: 10px 25px;
+      border: 1px solid;
+	  background-color: gray;
+}	  
+
+#title {
+	text-align: center;
+	
+}
+
+#heading {
+	text-align: center;
+}
+
+#timeline {
+	border: 1px solid black;
+}
+
+h2 {
+	text-align: center;
+}
+
+#side-content {
+    height: 375px;
+    width: 290px;
+    background-color: white;
+    float: right;
+    clear: both;
+    position: relative;
+    bottom: 750px;
+	border: 1px solid black;
+}
+
+.info {
+
+    font-family: 'Dosis' , sans-serif;
+    position: relative;
+    margin-bottom: 2em;
+    text-align: center;
+    background-color: white;
+}
+
+.th, .info td {
+    vertical-align: top;
+    border: 0;
+    border-bottom: 1px solid #dddddd;
+    padding: 0.2em;
+}
+
+#short {
+    font-family: 'Lato' , sans-serif;
+    font-weight:bold;
+    font-size: 26px;
+}
